@@ -1,5 +1,72 @@
+body{
+    background-color: #f9f9f9cb;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+}
+
+.left-icons {
+    display: flex;
+    align-items: center;
+}
+
+.left-icons .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.title {
+    margin: 0 2vw;
+    font-size: 24px;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.home-link{
+    margin-right: 15px;
+}
+
+.content {
+    margin-top: 100px; /* Adjust margin to avoid overlapping with the fixed header */
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    width:40vw;
+    margin-left: auto; /* Center the content horizontally */
+    margin-right: auto; /* Center the content horizontally */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+
 #textInput {
     width:40%;
     height:200px;
+    resize: none;
+    border: none;
+    outline: none;
+    border: #d6cece solid 1px;
+    padding:15px;
+    border-radius: 5px;
 
 }
+

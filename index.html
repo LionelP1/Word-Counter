@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/4be83870fe.js" crossorigin="anonymous"></script>
+
     <title>Word Counter</title>
 </head>
 <body>
-    <textarea id="textInput" placeholder="Type or paste your text here..."></textarea>
-    <p>Words: <span id = wordNum></span></p>
-    <p>Characters:<span id = "characterNum"></span></p>
-
-
-
+    <header>
+        <div class="left-icons">
+            <a href="index.html" class="home-link">
+                <i class="fa-solid fa-house fa-xl" style="color: #000000;"></i>
+            </a>
+            <a href= "https://github.com/lpei1900/Word_Counter" class="github-link">
+                <i class="fa-brands fa-github fa-xl" style="color: #000000;"></i>
+            </a>
+        </div>
+        <h1 class="title">Word Counter</h1>
+    </header>
+  
+    <div class = "content">
+        <textarea id= "textInput" placeholder="Type or paste your text here..."></textarea>
+        <p>Words: <span id= "wordNum">0</span></p>
+        <p>Characters: <span id= "characterNum">0</span></p>
+        <p>No Whitespaces: <span id= "noWhitespaces">0</span></p>
+    </div>
     <script src = "script.js"></script>
 </body>
 </html>
