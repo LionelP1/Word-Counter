@@ -22,10 +22,26 @@
     </header>
   
     <div class = "content">
-        <textarea id= "textInput" placeholder="Type or paste your text here..."></textarea>
-        <p>Words: <span id= "wordNum">0</span></p>
-        <p>Characters: <span id= "characterNum">0</span></p>
-        <p>No Whitespaces: <span id= "noWhitespaces">0</span></p>
+        <div class="information">
+            <div class="info-box">
+                <div id="wordNum" class="counter">0</div>
+                <div class="label">Words</div>
+            </div>
+            <div class="info-box">
+                <div id="characterNum" class="counter">0</div>
+                <div class="label">Characters</div>
+            </div>
+            <div class="info-box">
+                <div id="noWhitespaces" class="counter">0</div>
+                <div class="label">No White Spaces</div>
+            </div>
+            <div class="info-box">
+                <button class ="clear"><i class="fa-solid fa-trash fa-xl" style="color: #000000;"></i></button>
+                <div class="label">Clear</div>
+            </div>
+        </div>
+
+        <textarea id= "textInput" placeholder="Type or paste your text"></textarea>
     </div>
     <script src = "script.js"></script>
 </body>

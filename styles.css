@@ -43,30 +43,59 @@ header a {
 }
 
 .content {
-    margin-top: 100px; /* Adjust margin to avoid overlapping with the fixed header */
+    margin-top: 100px;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     background-color: #ffffff;
-    width:40vw;
-    margin-left: auto; /* Center the content horizontally */
-    margin-right: auto; /* Center the content horizontally */
+    width:60vw;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding:35px;
 
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+
+.info-box{
+    margin-bottom:5px;
+}
+
+.label{
+    color:rgb(38, 37, 37);
+    font-size:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+.counter{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clear{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 
 
-
 #textInput {
-    width:40%;
-    height:200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height:25vw;
     resize: none;
     border: none;
     outline: none;
     border: #d6cece solid 1px;
     padding:15px;
     border-radius: 5px;
-
+    box-sizing: border-box;
 }
-
